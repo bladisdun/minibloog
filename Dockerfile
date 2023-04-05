@@ -15,7 +15,7 @@ COPY . .
 
 RUN npm install
 
-EXPOSE 3000
+EXPOSE 9100
 
 FROM debian:bullseye-slim
 
