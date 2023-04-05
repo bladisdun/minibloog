@@ -15,6 +15,7 @@ COPY . .
 
 RUN npm install
 
+EXPOSE 8080
 
 FROM debian:bullseye-slim
 
